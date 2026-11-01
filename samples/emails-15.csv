@@ -1,0 +1,16 @@
+email,name,note
+maya.okafor@gmail.com,Maya Okafor,an ordinary address on a known provider: expect Allow
+testing@yahoo.com,Test User,placeholder name: expect Review
+billing@decoro.gr,,"role account on a new domain: Analysing, then Review"
+sam.reyes@facebook-email.ml,Sam Reyes,a disposable service from our list: expect Block
+"Ana Weber <ana.weber@edding.com>",Ana Weber,"written with a name on a new domain: cleaned up, Analysing"
+maya okafor@gmail.com,Maya Okafor,contains a space: invalid
+MAYA.OKAFOR@gmail.com,Maya Okafor,repeat of row 1 in capitals: duplicate
+kai.shaw@artaxnet.com,Kai Shaw,"a domain we have never seen: Analysing, then fills in"
+jo.quigley@coeliac.org.uk,Jo Quigley,"a domain we have never seen: Analysing, then fills in"
+leo.tanaka@musebox.ai,Leo Tanaka,"a domain we have never seen: Analysing, then fills in"
+nina.vance@drgnws1.com,Nina Vance,"a domain we have never seen: Analysing, then fills in"
+omar.haddad@atsit.in,Omar Haddad,"a domain we have never seen: Analysing, then fills in"
+jess.ortiz@oetiker.ch,Jess Ortiz,a domain analysed before with no firm verdict: expect Review
+ops@momentjs.com,Ops,a domain that accepts no mail: expect Block
+,No Email,empty cell: invalid

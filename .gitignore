@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+.next/
+.build/
+*.zip
+*.bak
+
+# Build output
+*.tsbuildinfo
+
+# Not part of this project
+AT1/
+AT3-Final.docx
+~$*.docx

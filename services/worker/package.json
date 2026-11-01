@@ -1,0 +1,19 @@
+{
+  "name": "xenova-verify-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/worker.js",
+    "dev": "node --env-file=.env --watch src/worker.js",
+    "analyse": "node --env-file=.env src/try-analyse.js",
+    "test": "node --test test/score.test.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.700.0",
+    "@aws-sdk/client-s3": "^3.700.0",
+    "@aws-sdk/client-sqs": "^3.700.0",
+    "@aws-sdk/lib-dynamodb": "^3.700.0",
+    "ioredis": "^5.4.1"
+  }
+}
